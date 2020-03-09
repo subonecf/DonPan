@@ -1,16 +1,20 @@
 @charset "UTF-8";
 .portada {
   height: 600px;
-  background: -webkit-gradient(linear, left top, right top, from(#ECB22A), to(#FFC43B));
-  background: -webkit-linear-gradient(left, #ECB22A, #FFC43B);
-  background: -o-linear-gradient(left, #ECB22A, #FFC43B);
-  background: linear-gradient(to right, #FF6800, #FFAF00);
+  background: -webkit-gradient(linear, left top, right top, from(#FF6800), to(#FFAF00));
+  background: -webkit-linear-gradient(left, #FF6800, #FFC43B);
+  background: -o-linear-gradient(left, #FF6800, #FFC43B);
+  background: linear-gradient(to right, #FFAF00, #FF6800);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+
+  
+
 }
 
 .portada header {
   margin-bottom: 20px;
+  height: 4.5rem;
   width: 100%;
   background: #f5f5f5;
 }
@@ -135,25 +139,68 @@
   width: 75%;
 }
 
-/* .portada .contenedor .textos .boton {
+
+
+.portada .contenedor .textos .app-store {
   border-radius: 4px;
-  display: inline-block;
+  margin-left: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   text-decoration: none;
   border: none;
   font-family: 'Open Sans';
   cursor: pointer;
-  color: #eaeaea;
-  padding: 8px 16px;
+  color: #F7F7F7;
+  padding: 6px 12px;
   font-size: 16px;
-  background: #FF2700;
-} */
+  background: #1E1E1E;
+}
+
+
+
+.portada .contenedor .textos .app-store .logo-apple img{
+  width: 1.6em;
+}
+
+.portada .contenedor .textos .app-store .texto-apple{
+  margin-left: 0.6em;
+}
 
 /* .portada .contenedor .imagen-portada {
   width: 50%;
 } */
 
+.portada .contenedor .textos .gplay {
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  border: none;
+  font-family: 'Open Sans';
+  cursor: pointer;
+  color: #F7F7F7;
+  padding: 6px 12px;
+  font-size: 16px;
+  background: #1E1E1E;
+}
+
+.portada .contenedor .textos .gplay .logo-apple img{
+  width: 1.6em;
+}
+
+.portada .contenedor .textos .gplay .texto-apple{
+  margin-left: 0.6em;
+}
+
 .portada .contenedor .imagen-portada img {
-  width: 65%;
+  width: 60%;
+  /* position: absolute;
+  top: 120px;
+  right: 360px; */
 }
 
 /* .portada .contenedor .circle {
