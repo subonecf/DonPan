@@ -9,7 +9,7 @@
  header {
   height: 4.5rem;
   width: 100%;
-  background: #f5f5f5;
+  background: #fefefe;
 }
 
  header .contenedor {
@@ -210,9 +210,9 @@ header .contenedor .container-menu  .menu-list li:nth-child(7) a{
 }
 
 .acerca-de .contenedor .titulo {
-  text-align: center;
-  margin-bottom: 80px;
-  color: #1a2761;
+  text-align: left;
+  margin-bottom: 1.5em;
+  color: #FF9E00;
   font-size: 28px;
   font-family: 'Tenor Sans';
 }
@@ -232,12 +232,37 @@ header .contenedor .container-menu  .menu-list li:nth-child(7) a{
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
 }
 
+
+
 .acerca-de .contenedor .contenedor-acerca-de .contenido {
-  width: 25%;
+  width: 45%;
 }
+.acerca-de .contenedor .contenedor-acerca-de .contenido .food{
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  
+}
+
+.acerca-de .contenedor .contenedor-acerca-de .contenido .food  div{
+  width: 0.9em;
+  height: 0.9em;
+  margin: 0 30px 0 50px;
+  background: #3F3D56;
+}
+
+/* .acerca-de .contenedor .contenedor-acerca-de .contenido .food  h3{
+  border-bottom:  solid 1px #3F3D56;
+  line-height: 1.5em;
+} */
+
+.acerca-de .contenedor .contenedor-acerca-de .contenido .food img{
+  width: 20%;
+}
+
 
 .acerca-de .contenedor .contenedor-acerca-de .contenido .icono-acerca-de {
   color: #FF5E96;
