@@ -475,7 +475,7 @@ header .contenedor .container-menu  .menu-list li:nth-child(7) a{
 
 .contacts {
   
-  padding: 60px 0;
+  padding: 90px 0;
   width: 100%;
 }
 
@@ -685,7 +685,7 @@ footer .contenedor .row .social-list ul li a{
 
 footer .contenedor .row .social-list ul li a .social{
   
- 
+  color: #373868;
   margin: auto;
   line-height: 40px;
   text-align: center;
@@ -693,7 +693,6 @@ footer .contenedor .row .social-list ul li a .social{
   font-size: 16px;
   background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
   -webkit-background-clip: text;
-    
   transition: all 0.3s ease-in;
 }
 
